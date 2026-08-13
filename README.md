@@ -5,27 +5,27 @@ Add an explanation of the algorithm and how it works. Make sure to include detai
 ## Requirements
 ### Hardware
 NVIDIA Jetson Orin Nano
-USB webcam
-Monitor
-Power supply
-Keyboard and mouse (optional, if using headed mode instead of NoMachine)
+- USB webcam
+- Monitor
+- Power supply
+- Keyboard and mouse (optional, if using headed mode instead of NoMachine)
 ### Software/Libraries
-Python 3
-OpenCV
-Install OpenCV with:
+- Python 3
+- OpenCV
+- Install OpenCV with:
 `pip3 install opencv-python`
-Jetson Utils (included with Jetson Inference)
-Jetson Inference can be installed from:  (GitHub link here)
-NoMachine (optional, used to remotely access the Jetson desktop)
+- Jetson Utils (included with Jetson Inference)
+- Jetson Inference can be installed from:  (GitHub link here)
+- NoMachine (optional, used to remotely access the Jetson desktop)
 
 ### Models
 The project includes these pretrained OpenCV models.
 Face Detection Model
-opencv_face_detector.pbtxt
-opencv_face_detector_uint8.pb
+- opencv_face_detector.pbtxt
+- opencv_face_detector_uint8.pb
 Age Prediction Model
-age_deploy.prototxt
-age_net.caffemodel
+- age_deploy.prototxt
+- age_net.caffemodel
 
 ## Running this project
 
