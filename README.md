@@ -5,7 +5,7 @@ Add an explanation of the algorithm and how it works. Make sure to include detai
 ## Requirements
 ### Hardware
 NVIDIA Jetson Orin Nano
-- USB webcam
+* USB webcam
 - Monitor
 - Power supply
 - Keyboard and mouse (optional, if using headed mode instead of NoMachine)
